@@ -1,11 +1,11 @@
-#include<iostream>
-#include<SFML/Graphics.hpp>
-#include<SFML/System.hpp>
-#include<SFML/Window.hpp>
-#include<SFML/Audio.hpp>
+#include<cstdlib>
+#include<ctime>
 #include "Game.h"
 
 int main(){
+    // Init srand
+    srand(time(NULL));
+
     // Init Game Engine
     Game game;
 
